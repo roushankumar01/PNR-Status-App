@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    tools:context="com.roushan.pnrstatus.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:text="@string/enterPNR"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/pnrInputTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="60sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint="@string/inputHint"
+        android:imeOptions="actionGo"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textColorLink="@android:color/holo_red_light"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

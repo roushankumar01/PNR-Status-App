@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PNR Status</string>
+    <string name="enterPNR">Enter PNR Number</string>
+    <string name="inputHint">Enter PNR Number</string>
+    <string name="title_activity_activityupdateui">activityupdateui</string>
+    <string name="button">Submit</string>
+    <string name="wait">Please Wait Fetching Data From Server ...</string>
+    <string name="backButton">BackButton</string>
+    <string name="refreasfbutton">Refreash Button</string>
+</resources>

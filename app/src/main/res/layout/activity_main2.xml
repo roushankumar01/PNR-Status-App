@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="10dp"
+    tools:context="com.roushan.pnrstatus.Main2Activity">
+
+    <TextView
+        android:id="@+id/pnrnoview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/iBAckButton"
+        android:layout_marginTop="33dp"
+        android:paddingTop="20sp"
+        android:textSize="25sp" />
+
+    <ImageButton
+        android:id="@+id/iBAckButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/refreasfbutton"
+        app:srcCompat="@drawable/back_btn" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/pnrnoview"
+        android:layout_marginTop="0dp"
+        android:paddingTop="20dp">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/errormsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/wait"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/iRefreashBUtton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/backButton"
+        app:srcCompat="@drawable/flipcamera_btn" />
+
+
+</RelativeLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="50dp"
+    android:paddingBottom="10dp"
+    >
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        />
+</RelativeLayout>-->
